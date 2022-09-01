@@ -11,7 +11,7 @@ const Inicio = () => {
                     <h3 className="text-primary fw-bold text-center text-uppercase mb-4 py-5 display-6">No solo te enseñamos, dialogamos de lo que te apasiona</h3>  
                     </Col>
                     <Col md={7} className="my-auto">
-                        <Image fluid src="src/img/mapa.jpg" className="p-4 "/>
+                        <Image fluid src="../src/img/mapa.jpg" className="p-4 "/>
                     </Col>
                 </Row>               
             </Container>
