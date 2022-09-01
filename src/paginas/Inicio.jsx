@@ -20,7 +20,7 @@ const Inicio = () => {
                 <Row xs={1} md={4} className="gx-4 m-4">
                     <Col>
                         <div className="">
-                            <Image fluid src="src/img/trabajo.jpg" className=""/>
+                            <Image fluid src="../src/img/trabajo.jpg" className=""/>
                             <p className="mt-3 mb-0">¿Necesitas aprender español?</p>
                             <p className="fw-bold mb-4"> Para avanzar en tu carrera profesional?</p>
                         </div>
