@@ -1,4 +1,5 @@
-import { Navbar, Container, Nav, Form, Button} from 'react-bootstrap'
+import { Navbar, Container, Nav} from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 const HeaderPublic = () => {
   return (
@@ -17,8 +18,8 @@ const HeaderPublic = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-menu"/>
                 <Navbar.Collapse id="responsive-navbar-menu">
                     <Nav className="me-auto ms-md-5 mb-3">
-                        <Nav.Link href="../paginas/QuienesSomos" className="text-primary fw-bold">Quines Somos</Nav.Link>
-                        <Nav.Link href="../paginas/Publicaciones" className="text-primary fw-bold" >Publicaciones</Nav.Link>
+                        <Link to="/QuienesSomos" className="text-primary fw-bold">Quines Somos</Link>
+                        <Link to="/Publicaciones" className="text-primary fw-bold" >Publicaciones</Link>
                     </Nav>
                     {/* <Form className="d-lg-flex d-md-block">
                         <Form.Group  controlId="form-group-email" className="me-md-3 mb-3"   >
