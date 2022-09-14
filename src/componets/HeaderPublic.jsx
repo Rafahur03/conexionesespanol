@@ -17,8 +17,8 @@ const HeaderPublic = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-menu"/>
                 <Navbar.Collapse id="responsive-navbar-menu">
                     <Nav className="me-auto ms-md-5 mb-3">
-                        <Nav.Link href="./quienes-somos" className="text-primary fw-bold">Quines Somos</Nav.Link>
-                        <Nav.Link href="./publicaciones" className="text-primary fw-bold" >Publicaciones</Nav.Link>
+                        <Nav.Link href="../paginas/QuienesSomos" className="text-primary fw-bold">Quines Somos</Nav.Link>
+                        <Nav.Link href="../paginas/Publicaciones" className="text-primary fw-bold" >Publicaciones</Nav.Link>
                     </Nav>
                     {/* <Form className="d-lg-flex d-md-block">
                         <Form.Group  controlId="form-group-email" className="me-md-3 mb-3"   >
