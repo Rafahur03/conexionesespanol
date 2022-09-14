@@ -16,7 +16,7 @@ function App() {
         <Routes>
             <Route path="/" element={<Publiclayout/>}>
                <Route index element={<Inicio/>}/>
-               <Route path="quienes-somos" element={<QuienesSomos/>}/>
+               <Route path="QuienesSomos" element={<QuienesSomos/>}/>
                {/* <Route path="registrase" element={<Registro/>}/>
                <Route path="resete-password" element={<OlvidePassword/>}/> */}
                <Route path="publicaciones" element={<Publicaciones/>}/>
