@@ -8,7 +8,7 @@ const HeaderPublic = () => {
             <Container fluid  className="me-md-2">
                 <Navbar.Brand href="/" className="mb-2">
                     <img
-                    src="../src/logo/logo_large.png"
+                    href="https://1drv.ms/u/s!ArRlIMpZcL7_icUSLxG7G3yFiFypWw?e=R9mf3J"
                     width="150"
                     height="auto"
                     className="d-inline-block align-top ml-5"
